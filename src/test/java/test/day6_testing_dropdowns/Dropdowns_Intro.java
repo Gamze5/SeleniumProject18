@@ -71,7 +71,7 @@ public class Dropdowns_Intro {
 
         // 5.Select California
         Thread.sleep(1000);
-        stateDropdown.deselectByIndex(5);// bu da secmenin farkli yolu index nosunu alirsin saymaya sifirdan basla top to bottom
+        stateDropdown.selectByIndex(5);// bu da secmenin farkli yolu index nosunu alirsin saymaya sifirdan basla top to bottom
         //toplam uc farkli method yaptik selectByValue("IL"), selectByVisibleText("Virginia"),deselectByIndex(5);
 
         // 6.Verify final selected option is California.Use all Select options.(visible text, value, index

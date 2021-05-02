@@ -10,6 +10,7 @@ import static org.openqa.selenium.support.PageFactory.*;
 public class Loading1Page {
 
     public Loading1Page(){
+
         PageFactory.initElements(Driver.getDriver(), this);
     }
 

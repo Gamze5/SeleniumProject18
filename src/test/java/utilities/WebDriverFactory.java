@@ -24,6 +24,7 @@ public class WebDriverFactory {
             System.out.println("Given browser type does not exist. Driver =nul!!");
             return null;
         }
+
 }
 
 }

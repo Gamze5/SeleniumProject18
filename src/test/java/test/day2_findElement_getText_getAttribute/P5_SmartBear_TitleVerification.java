@@ -14,6 +14,8 @@ public class P5_SmartBear_TitleVerification {
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
 
+
+
         //2-Go	to:	http://secure.smartbearsoftware.com/samples/testcomplete12/WebOrders/login.aspx
         driver.get("http://secure.smartbearsoftware.com/samples/testcomplete12/WebOrders/login.aspx");
 

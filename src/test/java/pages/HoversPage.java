@@ -7,7 +7,7 @@ import utilities.Driver;
 
 public class HoversPage {
 
-    public HoversPage(){
+ public HoversPage(){
         PageFactory.initElements(Driver.getDriver(), this);
     }
 

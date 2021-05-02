@@ -271,7 +271,7 @@ pom.xml
     - Continues when all webElements are loaded on the page.
     syntax: driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
     -> Lets say if the page is loaded at 3 seconds in, what happens?
-    -> It just moves on with the exection of the rest of the lines.
+    -> It just moves on with the execution of the rest of the lines.
 findElements()-->
     -> What is the return type of this method?
     -> This returns List of WebElements

@@ -15,4 +15,5 @@ public class DriverUtilsPractice {
         googleSearch.sendKeys(ConfigurationReader.getProperty("testdata")+ Keys.ENTER ) ;
 
     }
+
 }

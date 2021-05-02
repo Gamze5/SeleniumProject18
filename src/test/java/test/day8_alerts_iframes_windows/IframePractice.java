@@ -29,7 +29,7 @@ public class IframePractice {
         WebElement iframe=driver.findElement(By.xpath("//iframe[@id='mce_0_ifr']"));
       //  WebElement iframe2=driver.findElement(By.tagName("iframe")); boyle de yazilabilr
         //switching to iframe using Webelemnt
-       // driver.switchTo().frame(iframe);
+        driver.switchTo().frame(iframe);
 
         //switching to iframe using indexes
         //driver.switchTo().frame(0);

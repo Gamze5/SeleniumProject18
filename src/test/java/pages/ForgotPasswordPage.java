@@ -8,6 +8,7 @@ import utilities.Driver;
 
 public class ForgotPasswordPage {
     public ForgotPasswordPage(){
+
         PageFactory.initElements(Driver.getDriver(), this);
     }
 

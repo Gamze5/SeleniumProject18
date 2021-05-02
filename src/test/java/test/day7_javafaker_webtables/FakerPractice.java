@@ -25,5 +25,8 @@ public class FakerPractice {
 
         String chuckNorris =faker.chuckNorris().fact();
         System.out.println("chuckNorris = " + chuckNorris);
+
+        String gamze=faker.book().title();
+        System.out.println("Gamze= "+gamze);
     }
 }
